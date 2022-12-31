@@ -1,10 +1,28 @@
 {
-  "name": "Hazau-Bot",
+  "name": "hazau-bot",
   "version": "1.0.0",
-  "main": "src/main.js",
+  "main": "src/bot.js",
   "license": "MIT",
   "dependencies": {
+    "@discordjs/rest": "^1.5.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.25",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HajauIsMyName/Hazau-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/HajauIsMyName/Hazau-Bot/issues"
+  },
+  "homepage": "https://github.com/HajauIsMyName/Hazau-Bot#readme",
+  "description": ""
 }
